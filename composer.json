@@ -1,0 +1,21 @@
+{
+    "name": "asimlqt/php-cassandra-client",
+    "type": "library",
+    "description": "PHP Cassandra Client",
+    "keywords": ["apache", "cassandra", "client"],
+    "homepage": "https://github.com/asimlqt/php-cassandra-client",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Asim Liaquat",
+            "email": "asimlqt22@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": { "Cassandra\\Cql\\": "src/Cassandra/Cql/" }
+    }
+}
